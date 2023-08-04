@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {background: #ffffff; color: #2b2b2b; overflow-x: hidden;}
+[class="dark"] body {background: #131417; color: white}
+main {margin-top: 200px;}
+@media (min-width: 640px) {main {margin-top: 60px}}
+
+h1 {font-size: 44px;line-height: 1;font-weight: 700}
+h2 {font-size: 36px;line-height: 1;font-weight: 500}
+h3 {font-size: 22px}
+h4 {font-size: 18px}
+
+@media (min-width: 768px) {
+    h1 {font-size: 50px;line-height: 1;font-weight: 700}
+    h2 {font-size: 40px;line-height: 1;font-weight: 500}
+    h3 {font-size: 30px;line-height: 2.25rem}
+    h4 {font-size: 20px}
+}
